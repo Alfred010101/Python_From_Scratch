@@ -1,0 +1,15 @@
+cadena = "      Come frutas y verduras  hoy "
+
+print(len(cadena))
+print(cadena.upper())
+print(cadena.lower())
+print(cadena.capitalize())
+print(cadena.title())
+print(cadena.strip())
+print(cadena.lstrip())
+print(cadena.rstrip())
+print(cadena.find("frutas"))
+print(cadena.replace("hoy", "...xD"))
+print(cadena)
+print("hoy" in cadena)
+print("xD" not in cadena)
