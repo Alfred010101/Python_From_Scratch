@@ -15,10 +15,12 @@ usuarios = [
     ["Zr", 6]
 ]
 
+
 def ordenar(elem):
     return elem[1]
 
 
 usuarios.sort()
-usuarios.sort(key=ordenar, reverse=True)
+print(usuarios)
+usuarios.sort(key=lambda elemento: elemento[1], reverse=True)
 print(usuarios)
